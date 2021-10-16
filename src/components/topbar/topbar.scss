@@ -12,12 +12,16 @@
     z-index: 3;
     overflow: hidden;
     transition: all 1s ease;
+
     
 
     &.active{
         background-color: $mainColor;
         color: white;
         
+        a {
+            color: $mainColor;
+        }
 
         .hamburger {
             overflow: hidden;
@@ -76,6 +80,12 @@
                 margin-left: 5px;
                 font-size: 15px;
                 font-weight: 700;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -103,4 +113,12 @@
 
  
 
+}
+
+.links {
+    color: $mainColor !important;
+
+    &.active {
+        color: white !important;
+    }
 }

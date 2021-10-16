@@ -5,7 +5,6 @@ import Contact from './components/contact/Contact';
 import Menu from './components/menu/Menu';
 import './app.scss';
 import { useState } from 'react';
-import { send } from 'emailjs-com';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(true);
