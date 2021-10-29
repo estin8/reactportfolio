@@ -31,7 +31,7 @@ function Contact() {
       <div className="left">
         <img
           src="assets/skyline.webp"
-          height="1080px"
+          height="1280px"
           width="720px"
           alt="cincy skyline"
         />
