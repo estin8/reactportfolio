@@ -13,30 +13,32 @@
     overflow: hidden;
     transition: all 1s ease;
 
-    
 
-    &.active{
+
+    &.active {
         background-color: $mainColor;
         color: white;
-        
+
         a {
             color: $mainColor;
         }
 
         .hamburger {
             overflow: hidden;
-           
+
             span {
-                
-                &:first-child{
+
+                &:first-child {
                     background-color: white;
                     transform: rotate(45deg);
-        
+
                 }
+
                 &:nth-child(2) {
                     opacity: 0;
                 }
-                &:last-child{
+
+                &:last-child {
                     background-color: white;
                     transform: rotate(-45deg);
                 }
@@ -54,9 +56,9 @@
     .left {
         display: flex;
         align-items: center;
-        
+
         .logo {
-            font-size: 40px;
+            font-size: 50px;
             font-weight: 700;
             text-decoration: none;
             color: inherit;
@@ -73,12 +75,12 @@
             }
 
             .icon {
-                font-size: 18px;
+                font-size: 28px;
             }
 
             span {
                 margin-left: 5px;
-                font-size: 15px;
+                font-size: 25px;
                 font-weight: 700;
 
                 a {
@@ -111,7 +113,7 @@
         }
     }
 
- 
+
 
 }
 
