@@ -32,7 +32,7 @@ function Contact() {
         <img
           src="assets/skyline.webp"
           height="1280px"
-          width="720px"
+          width="1280px"
           alt="cincy skyline"
         />
       </div>
