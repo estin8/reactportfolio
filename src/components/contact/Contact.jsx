@@ -29,7 +29,12 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img src="assets/skyline.webp" height="720px" alt="cincy skyline" />
+        <img
+          src="assets/skyline.webp"
+          height="1080px"
+          width="720px"
+          alt="cincy skyline"
+        />
       </div>
       <div className="right">
         <h2>Contact</h2>
