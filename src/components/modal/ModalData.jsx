@@ -13,6 +13,7 @@ export default function ModalData(data) {
     color: 'white',
     bgcolor: 'rgba(16, 36, 61, 0.5)',
     border: '1px dotted black',
+    borderRadius: '10px',
     boxShadow: '4px 4px 4px rgba(0,0,0,0.5)',
     p: 4,
   };
