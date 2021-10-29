@@ -1,10 +1,10 @@
-$mainColor: #10243d;
+$mainColor: rgb(16, 36, 61);
 $secColor: rgb(20, 83, 220);
 
 $width: 768px;
 
 @mixin mobile {
-    @media (max-width: #{$width}) { 
+    @media (max-width: #{$width}) {
         @content
     }
 }

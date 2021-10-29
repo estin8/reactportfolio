@@ -6,14 +6,14 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/me_transOutline.png" alt="" />
+          <img src="assets/me.webp" alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>Hi, I'm</h2>
-          <h1>Nate Hill</h1>
-          <h3>Web Design & Development</h3>
+          <h1>Hi, I'm Nate</h1>
+
+          <h3>Let's build something awesome together</h3>
         </div>
         <a href="#portfolio">
           <ArrowCircleDownSharpIcon />
