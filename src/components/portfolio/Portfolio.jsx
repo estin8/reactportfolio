@@ -6,6 +6,8 @@ import { useState, useEffect } from 'react';
 import ModalData from '../modal/ModalData';
 
 function Portfolio() {
+  // Data pulled from data.js; optional "mobile" section for when I have any mobile projects in the future
+
   const [selected, setSelected] = useState('web');
   const [data, setData] = useState([]);
 
@@ -33,10 +35,12 @@ function Portfolio() {
     }
   }, [selected]);
 
+  //Top: "Web" option mapped from data.js -- optional 'mobile' not currently active
+  //Middle: Images and description mapped based on objects from data.js
+  //Bottom: Modal button mapped out
   return (
     <div className="portfolio" id="portfolio" key={3}>
       <h1>Portfolio</h1>
-
       <ul>
         {list.map((item, id) => (
           <PortfolioList

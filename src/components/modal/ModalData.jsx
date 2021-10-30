@@ -3,6 +3,7 @@ import Image from 'material-ui-image';
 import { Modal, Button, Typography, Fade, Box } from '@material-ui/core';
 
 export default function ModalData(data) {
+  // Style for the modal
   const style = {
     position: 'absolute',
     top: '50%',
@@ -18,6 +19,7 @@ export default function ModalData(data) {
     p: 4,
   };
 
+  //Style for image within modal
   const imgStyle = {
     height: '100%',
     width: '100%',
@@ -25,6 +27,8 @@ export default function ModalData(data) {
     borderRadius: '15px',
     alignSelf: 'center',
   };
+
+  //Handle modal open/close. Data in modal is mapped from external data.js values
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);

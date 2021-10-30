@@ -4,11 +4,13 @@ import { send } from 'emailjs-com';
 import Image from 'material-ui-image';
 
 function Contact() {
+  // Style for left-side image
   const imgStyle = {
     width: '1900px',
     height: '100%',
   };
 
+  // Code to deal with contact form
   const [toSend, setToSend] = useState({
     message: '',
     reply_to: '',

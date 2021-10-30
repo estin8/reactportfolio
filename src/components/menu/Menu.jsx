@@ -1,6 +1,7 @@
 import './menu.scss';
 
 export default function Menu({ menuOpen, setMenuOpen }) {
+  //Handle clicks on links
   return (
     <div className={'menu ' + (menuOpen && 'active')}>
       <ul>
