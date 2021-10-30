@@ -41,7 +41,7 @@ export default function ModalData(data) {
             </Typography>
             <Typography sx={{ mt: 2 }}>{data.description}</Typography>
             <Typography sx={{ mt: 2 }}>
-              Link: <a href="https://nates.glitch.me">{data.link}</a>
+              Link: <a href={data.link}>{data.link}</a>
             </Typography>
           </Box>
         </Fade>
