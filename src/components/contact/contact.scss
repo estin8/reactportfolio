@@ -4,18 +4,22 @@
     background-color: white;
     display: flex;
 
-   
+
 
     .left {
         flex: 1;
         overflow: hidden;
+        width: 100%;
+        height: 100%;
+
 
         img {
             height: 100%;
             margin: 0px -250px;
-            
+
             @include mobile {
-                margin: 0px -500px;
+                margin: -300px;
+                transform: translate(300px)
             }
 
         }
@@ -43,7 +47,7 @@
 
             input[type=text]:focus {
                 background-color: rgb(222, 231, 252);
-              }
+            }
 
             input {
                 width: 300px;

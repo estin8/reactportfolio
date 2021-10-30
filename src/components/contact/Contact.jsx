@@ -1,8 +1,14 @@
 import './contact.scss';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
+import Image from 'material-ui-image';
 
 function Contact() {
+  const imgStyle = {
+    width: '1900px',
+    height: '100%',
+  };
+
   const [toSend, setToSend] = useState({
     message: '',
     reply_to: '',
@@ -29,10 +35,9 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <img
+        <Image
           src="assets/skyline.webp"
-          height="1280px"
-          width="1280px"
+          imageStyle={imgStyle}
           alt="cincy skyline"
         />
       </div>
