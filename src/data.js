@@ -4,7 +4,7 @@ export const webPortfolio = [
         description: "An app that utitlizes FaceAPI to measure a persons emotion based on their facial features and returns a response to the user.",
  
         img: '../assets/faceapi.webp',
-        link: 'https://expressioncheck.w3spaces.com/',
+        link: 'https://howareyou-phi.vercel.app/',
         id: 1
     },
 
