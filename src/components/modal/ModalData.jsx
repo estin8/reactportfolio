@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import Image from 'material-ui-image';
 import { Modal, Button, Typography, Fade, Box } from '@material-ui/core';
 
 export default function ModalData(data) {
@@ -17,6 +17,14 @@ export default function ModalData(data) {
     boxShadow: '4px 4px 4px rgba(0,0,0,0.5)',
     p: 4,
   };
+
+  const imgStyle = {
+    height: '100%',
+    width: '100%',
+
+    borderRadius: '15px',
+    alignSelf: 'center',
+  };
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -25,7 +33,9 @@ export default function ModalData(data) {
       <Modal open={open} onClose={handleClose} closeAfterTransition>
         <Fade in={open}>
           <Box sx={style}>
-            <img src={data.img} height="200px" width="auto" alt="" />
+            <div style={imgStyle}>
+              <Image src={data.img} imageStyle={imgStyle} aspectRatio="1/2" />
+            </div>
             <Typography variant="h6" component="h2">
               <div className="modalContents">{data.title}</div>
             </Typography>
