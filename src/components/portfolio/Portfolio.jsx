@@ -51,7 +51,7 @@ function Portfolio() {
       <div className="container">
         {data.map((d, index) => (
           <div className="item" key={index}>
-            <img src={d.img} alt="" />
+            <img className="rounded" src={d.img} alt="" />
             )} />
             <h3>{d.title}</h3>
           </div>
