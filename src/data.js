@@ -29,7 +29,7 @@ export const webPortfolio = [
         description: "An app that maps out the current position of a satetellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
 
         img: './assets/satapp.webp',
-        link: '',
+        link: 'https://satapp.glitch.me/',
         id: 3
     },
 ]
