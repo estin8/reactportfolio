@@ -17,9 +17,14 @@ function Contact() {
   });
 
   const onSubmit = (e) => {
-    const apiKey = process.env.EMAIL_API_KEY;
+    // const apiKey = process.env.EMAIL_API_KEY;
     e.preventDefault();
-    send('service_2xi3ffe', 'template_9aywdrq', toSend, apiKey)
+    send(
+      'service_2xi3ffe',
+      'template_9aywdrq',
+      toSend,
+      'user_IItCBgCoHrX7aw5GlpVex'
+    )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       })
