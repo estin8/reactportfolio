@@ -23,7 +23,6 @@ export default function ModalData(data) {
   const imgStyle = {
     height: '100%',
     width: '100%',
-
     borderRadius: '15px',
     alignSelf: 'center',
   };

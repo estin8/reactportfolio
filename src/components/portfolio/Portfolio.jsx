@@ -1,6 +1,5 @@
 import './portfolio.scss';
 import { webPortfolio } from '../../data.js';
-
 import PortfolioList from '../portfolioList/PortfolioList';
 import { useState, useEffect } from 'react';
 import ModalData from '../modal/ModalData';
