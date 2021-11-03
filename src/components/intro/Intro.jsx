@@ -7,7 +7,12 @@ export default function Intro() {
       {/* Container holding circle w/ image on left side */}
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/me.webp" alt="" />
+          <img
+            src="assets/profile-pic.png"
+            width="700px"
+            height="700px"
+            alt="nate hill"
+          />
         </div>
       </div>
       {/* Container holding text on right side */}
