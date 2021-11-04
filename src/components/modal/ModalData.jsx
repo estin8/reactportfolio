@@ -9,8 +9,10 @@ export default function ModalData(data) {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    minWidth: '250px',
-    width: 'auto',
+    minWidth: '300px',
+    maxWidth: '700px',
+    maxHeight: '50vh',
+
     color: 'white',
     bgcolor: 'rgba(16, 36, 61, 0.5)',
     border: '1px dotted black',
