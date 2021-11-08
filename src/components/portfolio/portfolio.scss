@@ -36,6 +36,11 @@
 
         justify-content: space-evenly;
 
+        a {
+            text-decoration: none;
+            margin-left: 0px;
+        }
+
         h1 {
             margin-top: 100px;
         }
@@ -43,6 +48,7 @@
         @include mobile {
             width: 100%;
             margin: 10px;
+            flex-wrap: wrap;
         }
 
         .item {
@@ -64,6 +70,7 @@
             @include mobile {
                 width: 130px;
                 height: 100px;
+
             }
 
             h3 {
@@ -119,6 +126,9 @@
     justify-content: space-evenly;
     margin: 0px;
 
+    @include mobile {
+        display: none;
+    }
 }
 
 a {
