@@ -12,7 +12,7 @@ export default function ModalData(data) {
     minWidth: '300px',
     maxWidth: '700px',
     maxHeight: '70vh',
-    overflow: 'hidden',
+    overflowY: 'hidden',
     scrollbarWidth: '0px',
     color: 'white',
     bgcolor: 'rgba(16, 36, 61, 0.5)',
