@@ -53,6 +53,13 @@ export default function ModalData(data) {
             </Typography>
             <Typography sx={{ mt: 2 }}>{data.description}</Typography>
             <Typography sx={{ mt: 2 }}>
+              <ul>
+                {data.tech.map((item) => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </Typography>
+            <Typography sx={{ mt: 2 }}>
               Link: <a href={data.link}>{data.link}</a>
             </Typography>
           </Box>
