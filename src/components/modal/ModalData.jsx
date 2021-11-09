@@ -49,7 +49,9 @@ export default function ModalData(data) {
               <Image src={data.img} imageStyle={imgStyle} aspectRatio="1/2" />
             </div>
             <Typography variant="h6" component="h2">
-              <div className="modalContents">{data.title}</div>
+              <div className="modalContents">
+                <h2>{data.title}</h2>
+              </div>
             </Typography>
             <Typography sx={{ mt: 2 }}>{data.description}</Typography>
             <h3>Technologies used</h3>
