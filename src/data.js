@@ -12,7 +12,7 @@ export const webPortfolio = [
         description: "An earlier version of my portfolio that made use of the animating capabilities of GSAP.",
         img: './assets/port_screenshot.webp',
         link: 'https://nates.glitch.me/',
-        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
+        tech: ['Vanilla JavaScript', 'Sass', 'GSAP'],
         id: 2
     },
     {
@@ -20,7 +20,7 @@ export const webPortfolio = [
         description: "An app experimenting with animation and, in particular, SnapSVG.",
         img: './assets/dc_screenshot.webp',
         link: 'https://drycounty.glitch.me/',
-        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
+        tech: ['Vanilla JavaScript', 'Sass', 'SnapSVG'],
         id: 3
     },
     {
@@ -29,14 +29,14 @@ export const webPortfolio = [
 
         img: '../assets/hay_screenshot.webp',
         link: 'https://howareyou-phi.vercel.app/',
-        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
+        tech: ['Vanilla JavasScript', 'FaceAPI', 'Sass'],
         id: 4
     },
     {
         title: "ISS Tracker",
         description: "An app that maps out the current position of a satetellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
         img: './assets/sat_screenshot.webp',
-        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
+        tech: ['Vanilla JavaScript', 'Leaflet', 'Sass'],
         link: 'https://satapp.glitch.me/',
         id: 5
     },

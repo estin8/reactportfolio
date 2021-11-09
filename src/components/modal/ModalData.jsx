@@ -53,7 +53,7 @@ export default function ModalData(data) {
             </Typography>
             <Typography sx={{ mt: 2 }}>{data.description}</Typography>
             <h3>Technologies used</h3>
-            <Typography sx={{ mt: 2, fontSize: '10px' }}>
+            <Typography sx={{ mt: 2, fontSize: '10px', overflowY: 'hidden' }}>
               <ul>
                 {data.tech.map((item) => (
                   <li>{item}</li>
