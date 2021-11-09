@@ -1,6 +1,13 @@
 import { useState } from 'react';
 import Image from 'material-ui-image';
-import { Modal, Button, Typography, Fade, Box } from '@material-ui/core';
+import {
+  Modal,
+  Button,
+  Typography,
+  Fade,
+  Box,
+  makeStyles,
+} from '@material-ui/core';
 
 export default function ModalData(data) {
   // Style for the modal
@@ -29,18 +36,29 @@ export default function ModalData(data) {
     borderRadius: '15px',
     alignSelf: 'center',
   };
+  const useStyles = makeStyles((theme: Theme) => ({
+    backDrop: {
+      backdropFilter: 'blur(3px)',
+      backgroundColor: 'rgba(0,0,30,0.4)',
+    },
+  }));
 
   //Handle modal open/close. Data in modal is mapped from external data.js values
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
+  const classes = useStyles();
   return (
     <div>
       <Modal
         open={open}
         onClose={handleClose}
         closeAfterTransition
-        BackdropComponent
+        BackdropProps={{
+          classes: {
+            root: classes.backDrop,
+          },
+        }}
       >
         <Fade in={open}>
           <Box sx={style}>
