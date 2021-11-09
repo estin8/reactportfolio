@@ -1,6 +1,13 @@
 import { useState } from 'react';
 import Image from 'material-ui-image';
-import { Modal, Button, Typography, Fade, Box } from '@material-ui/core';
+import {
+  Modal,
+  Button,
+  Typography,
+  Fade,
+  Box,
+  Backdrop,
+} from '@material-ui/core';
 
 export default function ModalData(data) {
   // Style for the modal
@@ -36,22 +43,28 @@ export default function ModalData(data) {
   const handleClose = () => setOpen(false);
   return (
     <div className="modalBackdrop">
-      <Modal open={open} onClose={handleClose} closeAfterTransition>
-        <Fade in={open}>
-          <Box sx={style}>
-            <div style={imgStyle}>
-              <Image src={data.img} imageStyle={imgStyle} aspectRatio="1/2" />
-            </div>
-            <Typography variant="h6" component="h2">
-              <div className="modalContents">{data.title}</div>
-            </Typography>
-            <Typography sx={{ mt: 2 }}>{data.description}</Typography>
-            <Typography sx={{ mt: 2 }}>
-              Link: <a href={data.link}>{data.link}</a>
-            </Typography>
-          </Box>
-        </Fade>
-      </Modal>
+      <Backdrop
+        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+        onClick={handleClose}
+      >
+        <Modal open={open} onClose={handleClose} closeAfterTransition>
+          <Fade in={open}>
+            <Box sx={style}>
+              <div style={imgStyle}>
+                <Image src={data.img} imageStyle={imgStyle} aspectRatio="1/2" />
+              </div>
+              <Typography variant="h6" component="h2">
+                <div className="modalContents">{data.title}</div>
+              </Typography>
+              <Typography sx={{ mt: 2 }}>{data.description}</Typography>
+              <Typography sx={{ mt: 2 }}>
+                Link: <a href={data.link}>{data.link}</a>
+              </Typography>
+            </Box>
+          </Fade>
+        </Modal>
+      </Backdrop>
       <Button onClick={handleOpen}>More info...</Button>
     </div>
   );
