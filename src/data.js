@@ -4,6 +4,7 @@ export const webPortfolio = [
         description: "A blog/content management system utilizing NextJS, GraphQL, and TailwindCSS. ",
         img: './assets/blog_screenshot.webp',
         link: 'https://blog-estin8.vercel.app',
+        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         id: 1
     },
     {
@@ -11,6 +12,7 @@ export const webPortfolio = [
         description: "An earlier version of my portfolio that made use of the animating capabilities of GSAP.",
         img: './assets/port_screenshot.webp',
         link: 'https://nates.glitch.me/',
+        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         id: 2
     },
     {

@@ -69,6 +69,9 @@ function Portfolio() {
             description={d.description}
             img={d.img}
             link={d.link}
+            tech={d.tech.map((item) => (
+              <li>{item}</li>
+            ))}
             key={index}
           />
         ))}
