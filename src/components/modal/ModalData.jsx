@@ -52,7 +52,8 @@ export default function ModalData(data) {
               <div className="modalContents">{data.title}</div>
             </Typography>
             <Typography sx={{ mt: 2 }}>{data.description}</Typography>
-            <Typography sx={{ mt: 2 }}>
+            <h3>Technologies used</h3>
+            <Typography sx={{ mt: 2, fontSize: '10px' }}>
               <ul>
                 {data.tech.map((item) => (
                   <li>{item}</li>
