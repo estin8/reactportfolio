@@ -20,6 +20,7 @@ export const webPortfolio = [
         description: "An app experimenting with animation and, in particular, SnapSVG.",
         img: './assets/dc_screenshot.webp',
         link: 'https://drycounty.glitch.me/',
+        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         id: 3
     },
     {
@@ -28,12 +29,14 @@ export const webPortfolio = [
 
         img: '../assets/hay_screenshot.webp',
         link: 'https://howareyou-phi.vercel.app/',
+        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         id: 4
     },
     {
         title: "ISS Tracker",
         description: "An app that maps out the current position of a satetellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
         img: './assets/sat_screenshot.webp',
+        tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         link: 'https://satapp.glitch.me/',
         id: 5
     },
