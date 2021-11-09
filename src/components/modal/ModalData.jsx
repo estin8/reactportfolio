@@ -54,6 +54,7 @@ export default function ModalData(data) {
         open={open}
         onClose={handleClose}
         closeAfterTransition
+        BackdropComponent
         BackdropProps={{
           classes: {
             root: classes.backDrop,
