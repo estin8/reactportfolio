@@ -35,7 +35,7 @@ export default function ModalData(data) {
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   return (
-    <div>
+    <div className="modalBackdrop">
       <Modal open={open} onClose={handleClose} closeAfterTransition>
         <Fade in={open}>
           <Box sx={style}>
