@@ -65,9 +65,9 @@ export default function ModalData(data) {
             <Typography sx={{ mt: 2 }}>
               <h3 style={{ overflow: 'hidden' }}>Link</h3>
               <Typography sx={{ mt: 2 }}>
-                <a href={data.link} style={{ overflow: 'hidden' }}>
-                  {data.link}
-                </a>
+                <div className="linkWrap">
+                  <a href={data.link}>{data.link}</a>
+                </div>
               </Typography>
             </Typography>
           </Box>
