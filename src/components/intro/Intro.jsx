@@ -8,10 +8,10 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="assets/profile-pic.png"
+            src="assets/citybg.png"
             width="700px"
             height="700px"
-            alt="nate hill"
+            alt="cincinnati skyline"
           />
         </div>
       </div>
