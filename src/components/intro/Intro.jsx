@@ -8,7 +8,7 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="assets/cropcity2.png"
+            src="assets/cinskyline.webp"
             width="1384px"
             height="558px"
             alt="cincinnati skyline"
