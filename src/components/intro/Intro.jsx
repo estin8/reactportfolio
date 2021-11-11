@@ -9,7 +9,7 @@ export default function Intro() {
         <div className="imgContainer">
           <img
             src="assets/citybg.png"
-            width="700px"
+            width="800px"
             height="700px"
             alt="cincinnati skyline"
           />

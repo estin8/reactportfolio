@@ -17,8 +17,8 @@
             width: 700px;
             height: 700px;
             margin-top: 3%;
-            background-color: rgb(16, 36, 61);
-
+            background-color: white;
+            border: 1px solid rgb(16, 36, 61);
             border-radius: 50%;
             display: flex;
             align-items: flex-end;
@@ -30,7 +30,7 @@
                 align-items: flex-start;
                 width: 200px;
                 height: 200px;
-                background: transparent;
+                background-color: white;
                 border: 1px solid rgb(16, 36, 61);
                 margin-top: 25%;
             }
