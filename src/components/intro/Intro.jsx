@@ -8,9 +8,9 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="assets/citybg.png"
-            width="800px"
-            height="700px"
+            src="assets/cropcity2.png"
+            width="1200px"
+            height="558px"
             alt="cincinnati skyline"
           />
         </div>
