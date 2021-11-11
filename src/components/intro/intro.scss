@@ -30,12 +30,14 @@
                 align-items: flex-start;
                 width: 200px;
                 height: 200px;
+                background: transparent;
+                border: 1px solid rgb(16, 36, 61);
                 margin-top: 25%;
             }
 
             img {
                 width: 100%;
-                transform: translate(0px, 100px);
+                transform: translate(0px, 300px) scale(1.2);
                 filter: grayscale(100%);
 
                 &:hover {
