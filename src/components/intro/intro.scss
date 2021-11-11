@@ -41,11 +41,12 @@
                 background-color: white;
                 border: 1px solid rgb(16, 36, 61);
                 margin-top: 25%;
+                box-shadow: none;
             }
 
             img {
-                width: 100%;
-                transform: translate(0px, 70px);
+                min-width: 1350px;
+                transform: translate(0px, 80px);
                 filter: grayscale(100%);
 
                 &:hover {
