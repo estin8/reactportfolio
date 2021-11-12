@@ -17,6 +17,7 @@
             width: 700px;
             height: 700px;
             margin-top: 3%;
+            margin-right: 7%;
             background-color: white;
             border: 1px solid rgb(16, 36, 61);
             border-radius: 50%;
@@ -27,17 +28,13 @@
             overflow: hidden;
             z-index: 10;
 
-            box-shadow: 0 2.8px 22px rgb(0 0 0 / 3%),
-                -20px 12px 20px rgb(0 0 0 / 5%),
-                -20px 20px 20px rgb(0 0 0 / 6%),
-                -12px 20px 20px 0px rgb(0 0 0 / 7%),
-                -20px 4px 33.4px rgb(0 0 0 / 9%),
-                -3px 20px 7px 2px rgb(0 0 0 / 12%);
+            box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
 
             @include mobile {
                 align-items: flex-start;
                 width: 200px;
                 height: 200px;
+                margin-right: unset;
                 background-color: white;
                 border: 1px solid rgb(16, 36, 61);
                 margin-top: 25%;
