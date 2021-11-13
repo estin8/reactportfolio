@@ -42,7 +42,6 @@ export default function ModalData(data) {
         onClose={handleClose}
         closeAfterTransition
         sx={{ backdropFilter: 'blur(5px)' }}
-        keepMounted
       >
         <Fade in={open}>
           <Box sx={style}>
