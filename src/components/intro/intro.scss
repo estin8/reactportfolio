@@ -13,6 +13,10 @@
         flex: 0.5;
         overflow: hidden;
 
+        @include tablet {
+            flex: 2;
+        }
+
         .imgContainer {
             width: 700px;
             height: 700px;
