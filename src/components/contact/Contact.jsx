@@ -16,12 +16,16 @@ function Contact() {
     reply_to: '',
   });
 
+  // Code to deal with success message after contact submit
+  const [sentSuccess, setSentSuccess] = useState(false);
+
   const onSubmit = (e) => {
     const apiKey = process.env.REACT_APP_EMAIL_API_KEY;
     e.preventDefault();
     send('service_2xi3ffe', 'template_9aywdrq', toSend, apiKey)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
+        setSentSuccess(true);
       })
       .catch((err) => {
         console.log('FAILED...', err);
@@ -57,6 +61,9 @@ function Contact() {
             onChange={handleChange}
           />
           <button type="submit">Send</button>
+          {sentSuccess && (
+            <span>Thanks! I'll get back to you as soon as possible.</span>
+          )}
         </form>
       </div>
     </div>
