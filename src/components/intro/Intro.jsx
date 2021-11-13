@@ -20,10 +20,10 @@ export default function Intro() {
         <div className="wrapper">
           <h1>Hi, I'm Nate</h1>
 
-          <h3>Let's build something awesome together</h3>
+          <h2>Let's build something awesome together</h2>
         </div>
-        <a href="#portfolio">
-          <ArrowCircleDownSharpIcon />
+        <a href="#portfolio" alt="arrow pointing down">
+          <ArrowCircleDownSharpIcon alt="arrow pointing down" />
         </a>
       </div>
     </div>
