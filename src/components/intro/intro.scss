@@ -53,6 +53,7 @@
 
             img {
                 min-width: 1350px;
+                min-height: 558px;
                 transform: translate(0px, 80px);
                 filter: grayscale(100%);
 
@@ -63,7 +64,7 @@
                 @include mobile {
                     width: 200px;
                     height: 100%;
-                    transform: translateX(-106px);
+                    transform: translate(-75px, -105px) scale(.8);
                     overflow: hidden;
                 }
 
