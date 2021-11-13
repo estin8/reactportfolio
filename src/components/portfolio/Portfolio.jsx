@@ -54,7 +54,12 @@ function Portfolio() {
       <div className="container">
         {data.map((d, index) => (
           <div className="item" key={index}>
-            <a href={d.link} rel="noreferrer" target="_blank">
+            <a
+              href={d.link}
+              rel="noreferrer"
+              target="_blank"
+              alt="preview of project website"
+            >
               <img className="rounded" src={d.img} alt="" />
             </a>
             )} />
