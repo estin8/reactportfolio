@@ -14,8 +14,10 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 80px;
+        margin-bottom: 110px;
         color: white;
+        overflow: hidden;
 
         @include mobile {
             font-style: 20px;
@@ -27,6 +29,7 @@
         padding: 0;
         list-style: none;
         display: flex;
+        overflow: hidden;
 
         @include mobile {
             margin: 10px 0;

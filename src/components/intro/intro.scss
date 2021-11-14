@@ -122,6 +122,10 @@
                     font-style: 20px;
                     text-align: center;
                 }
+
+                @include tablet {
+                    margin-top: -40px;
+                }
             }
 
         }
