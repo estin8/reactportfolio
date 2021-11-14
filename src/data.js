@@ -2,7 +2,7 @@ export const webPortfolio = [
         {
         title: "Blah Blog - CMS",
         description: "A blog/content management system utilizing NextJS, GraphQL, and TailwindCSS. ",
-        img: './assets/blog_screenshot.webp',
+        img: './assets/blog2.webp',
         link: 'https://blog-estin8.vercel.app',
         tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         id: 1
@@ -18,7 +18,7 @@ export const webPortfolio = [
     {
         title: "Dry County",
         description: "An app experimenting with animation and, in particular, SnapSVG.",
-        img: './assets/dc_screenshot.webp',
+        img: './assets/dc2.webp',
         link: 'https://drycounty.glitch.me/',
         tech: ['Vanilla JavaScript', 'Sass', 'SnapSVG'],
         id: 3
@@ -27,7 +27,7 @@ export const webPortfolio = [
         title: "How are you?",
         description: "An app that utitlizes FaceAPI to measure a persons emotion based on their facial features and returns a response to the user.",
 
-        img: '../assets/hay_screenshot.webp',
+        img: '../assets/hay2.webp',
         link: 'https://howareyou-phi.vercel.app/',
         tech: ['Vanilla JavasScript', 'FaceAPI', 'Sass'],
         id: 4
@@ -35,7 +35,7 @@ export const webPortfolio = [
     {
         title: "ISS Tracker",
         description: "An app that maps out the current position of a satetellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
-        img: './assets/sat_screenshot.webp',
+        img: './assets/satapp2.webp',
         tech: ['Vanilla JavaScript', 'Leaflet', 'Sass'],
         link: 'https://satapp.glitch.me/',
         id: 5
