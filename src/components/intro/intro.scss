@@ -98,13 +98,18 @@
             }
 
             h1 {
-                font-size: 80px;
-                margin: -7px 0;
+                font-size: 120px;
+                margin: -25px 0;
 
 
                 @include mobile {
                     font-size: 65px;
                     margin-top: -130px;
+                }
+
+                @include tablet {
+                    font-size: 80px;
+                    margin: -7px 0;
                 }
 
             }
