@@ -100,6 +100,8 @@
             h1 {
                 font-size: 120px;
                 margin: -25px 0;
+                font-weight: 900px;
+                color: rgb(16, 36, 61);
 
 
                 @include mobile {
@@ -119,6 +121,8 @@
             h2 {
                 font-size: 35px;
                 margin-top: -30px;
+                margin-left: 6px;
+                color: rgb(16, 36, 61);
 
                 @include mobile {
                     font-style: 20px;
@@ -127,6 +131,7 @@
 
                 @include tablet {
                     margin-top: -40px;
+                    margin-left: 4px;
                 }
             }
 
