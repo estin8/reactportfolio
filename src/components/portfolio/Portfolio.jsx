@@ -1,6 +1,6 @@
 import './portfolio.scss';
 import { webPortfolio } from '../../data.js';
-import PortfolioList from '../portfolioList/PortfolioList';
+// import PortfolioList from '../portfolioList/PortfolioList';
 import { useState, useEffect } from 'react';
 import ModalData from '../modal/ModalData';
 
@@ -10,16 +10,16 @@ function Portfolio() {
   const [selected, setSelected] = useState('web');
   const [data, setData] = useState([]);
 
-  const list = [
-    {
-      id: 'web',
-      title: 'Web',
-    },
-    // {
-    //   id: 'mobile',
-    //   title: 'Mobile',
-    // },
-  ];
+  // const list = [
+  //   {
+  //     id: 'web',
+  //     title: 'Web',
+  //   },
+  //   // {
+  //   //   id: 'mobile',
+  //   //   title: 'Mobile',
+  //   // },
+  // ];
 
   useEffect(() => {
     switch (selected) {
@@ -40,7 +40,7 @@ function Portfolio() {
   return (
     <div className="portfolio" id="portfolio" key={3}>
       <h1>Portfolio</h1>
-      <ul>
+      {/* <ul>
         {list.map((item, id) => (
           <PortfolioList
             title={item.title}
@@ -50,7 +50,7 @@ function Portfolio() {
             key={item.id}
           />
         ))}
-      </ul>
+      </ul> */}
       <div className="container">
         {data.map((d, index) => (
           <div className="item" key={index}>

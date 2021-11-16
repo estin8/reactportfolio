@@ -3,11 +3,13 @@
 
 //Main 'Home' page; divided into left and right sections. Left section houses img container and img, right houses heading text and svg element
 .intro {
-    background-color: white;
+    background-color: rgb(215, 216, 235);
     display: flex;
-    background-image: url("https://nates.vercel.app/assets/waves3.svg");
+    background-image: url("https://nates.vercel.app/assets/ripple.svg");
     background-size: 100vw;
+    background-repeat: no-repeat;
     background-position-y: 100%;
+
 
     @include mobile {
         flex-direction: column;
