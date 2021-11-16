@@ -11,7 +11,7 @@ export default function ModalData(data) {
     transform: 'translate(-50%, -50%)',
     minWidth: '300px',
     maxWidth: '700px',
-    maxHeight: '70vh',
+    maxHeight: '90vh',
     overflowY: 'hidden',
     scrollbarWidth: '0px',
     color: 'white',
