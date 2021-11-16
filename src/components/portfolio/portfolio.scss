@@ -8,6 +8,7 @@
     align-items: center;
     background-image: url("https://nates.vercel.app/assets/portripple.svg");
     background-repeat: no-repeat;
+    background-position-y: -10px;
 
     @include mobile {
         background-image: unset;
