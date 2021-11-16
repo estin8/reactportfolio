@@ -7,7 +7,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            natehill.
+            natehill
           </a>
           <div className="itemContainer">
             <PhoneAndroid className="icon" />
@@ -25,9 +25,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span>
               <a
                 className={'links ' + (menuOpen && 'active')}
-                href="mailto:nathantylerhill88@gmail.com"
+                href="mailto:natehilldev@gmail.com"
               >
-                nathantylerhill88@gmail.com
+                natehilldev@gmail.com
               </a>
             </span>
           </div>
