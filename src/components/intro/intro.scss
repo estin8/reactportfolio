@@ -46,12 +46,12 @@
 
             @include mobile {
                 align-items: flex-start;
-                width: 200px;
-                height: 200px;
+                width: 250px;
+                height: 250px;
                 margin-right: unset;
                 background-color: white;
                 border: 1px solid rgb(16, 36, 61);
-                margin-top: 25%;
+                margin-top: 15%;
                 box-shadow: unset;
             }
 
@@ -109,6 +109,7 @@
                 @include mobile {
                     font-size: 65px !important;
                     margin-top: -130px;
+
                 }
 
                 @include tablet {
