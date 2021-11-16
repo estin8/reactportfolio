@@ -32,6 +32,7 @@ function Portfolio() {
       default:
         setData(webPortfolio);
     }
+    setSelected('web');
   }, [selected]);
 
   //Top: "Web" option mapped from data.js -- optional 'mobile' not currently active
