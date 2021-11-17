@@ -25,7 +25,7 @@ export const webPortfolio = [
     },
     {
         title: "How are you?",
-        description: "An app that utitlizes FaceAPI to measure a persons emotion based on their facial features and returns a response to the user.",
+        description: "An app that utilizes FaceAPI to measure a persons emotion based on their facial features and returns a response to the user.",
 
         img: '../assets/hay_small.webp',
         link: 'https://howareyou-phi.vercel.app/',
@@ -34,7 +34,7 @@ export const webPortfolio = [
     },
     {
         title: "ISS Tracker",
-        description: "An app that maps out the current position of a satetellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
+        description: "An app that maps out the current position of a satellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
         img: './assets/sat_small.webp',
         tech: ['Vanilla JavaScript', 'Leaflet', 'Sass'],
         link: 'https://satapp.glitch.me/',

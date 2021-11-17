@@ -39,7 +39,7 @@ function Portfolio() {
   //Middle: Images and description mapped based on objects from data.js
   //Bottom: Modal button mapped out
   return (
-    <div className="portfolio" id="portfolio" key={3}>
+    <div className="portfolio" id="portfolio">
       <h1>Portfolio</h1>
       {/* <ul>
         {list.map((item, id) => (
@@ -53,8 +53,8 @@ function Portfolio() {
         ))}
       </ul> */}
       <div className="container">
-        {data.map((d, index) => (
-          <div className="item" key={index}>
+        {data.map((d) => (
+          <div className="item" key={d.id}>
             <a
               href={d.link}
               rel="noreferrer"
@@ -69,14 +69,14 @@ function Portfolio() {
         ))}
       </div>
       <div className="btnContainer">
-        {data.map((d, index) => (
+        {data.map((d) => (
           <ModalData
             title={d.title}
             description={d.description}
             img={d.img}
             link={d.link}
             tech={d.tech}
-            key={index}
+            key={d.id}
           />
         ))}
       </div>
