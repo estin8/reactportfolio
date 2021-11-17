@@ -6,8 +6,10 @@ import Image from 'material-ui-image';
 function Contact() {
   // Style for left-side image
   const imgStyle = {
-    width: '1900px',
-    height: '100%',
+    width: '1920px',
+    minHeight: '100%',
+    maxHeight: '909px',
+    overflow: 'hidden',
   };
 
   // Code to deal with contact form
