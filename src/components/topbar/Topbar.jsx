@@ -14,9 +14,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             <span className="links">
               <a
                 className={'links ' + (menuOpen && 'active')}
-                href="tel:513-207-5985"
+                href="tel:5132023217"
               >
-                513 207 5985
+                513 202 3217
               </a>
             </span>
           </div>
