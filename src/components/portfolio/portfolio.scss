@@ -12,7 +12,9 @@
     background-position-y: -10px, 0%;
 
     @include mobile {
-        background-image: unset;
+        background-image: url("https://nates.vercel.app/assets/portnoise.png");
+        background-size: 200px;
+        background-repeat: repeat;
     }
 
     h1 {

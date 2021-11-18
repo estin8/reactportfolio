@@ -14,7 +14,9 @@
     @include mobile {
         flex-direction: column;
         align-items: center;
-        background-image: unset;
+        background-image: url("https://nates.vercel.app/assets/noise.png");
+        background-size: 200px;
+        background-repeat: repeat;
     }
 
     .left {
@@ -35,7 +37,7 @@
             justify-content: center;
             float: right;
             overflow: hidden;
-            z-index: 10;
+
 
             box-shadow: 6px 20px 20px 0px rgba(0, 0, 0, .5), 6px 20px 20px 0px rgba(0, 0, 0, .5);
 
@@ -50,7 +52,7 @@
                 height: 250px;
                 margin-right: unset;
                 background-color: white;
-                border: 1px solid rgb(16, 36, 61);
+                border: 10px double rgb(255, 255, 255);
                 margin-top: 15%;
                 box-shadow: unset;
             }
@@ -97,6 +99,7 @@
             @include mobile {
                 padding-left: 0;
                 align-items: center;
+                margin: 0;
             }
 
             h1 {
@@ -109,7 +112,11 @@
                 @include mobile {
                     font-size: 65px !important;
                     margin-top: -130px;
-
+                    color: white;
+                    margin-bottom: 10px !important;
+                    letter-spacing: -4px !important;
+                    padding-right: 7px;
+                    text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.5);
                 }
 
                 @include tablet {
@@ -132,6 +139,8 @@
                     text-align: center;
                     margin-top: -28px;
                     padding: 10px 0;
+                    color: white;
+                    line-height: 30px;
                 }
 
                 @include tablet {
