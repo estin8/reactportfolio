@@ -84,6 +84,9 @@
         position: relative;
         margin-top: -50px;
 
+        @include mobile {
+            margin-top: -140px;
+        }
 
         .wrapper {
             width: 100%;

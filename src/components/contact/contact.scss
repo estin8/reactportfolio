@@ -42,12 +42,10 @@
         }
 
         h2 {
-            font-size: 40px;
+            font-size: 80px;
+            color: white;
+            text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.5);
 
-            @include mobile {
-                color: white;
-                text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.5);
-            }
         }
 
         form {
