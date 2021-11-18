@@ -110,6 +110,8 @@
                 margin: -25px 0;
                 font-weight: 900;
                 color: rgb(16, 36, 61);
+                letter-spacing: -10px !important;
+                padding-right: 10px;
 
 
                 @include mobile {
@@ -125,6 +127,8 @@
                 @include tablet {
                     font-size: 80px;
                     margin: -7px 0;
+                    letter-spacing: -7px !important;
+                    padding-right: 10px;
                 }
 
             }
