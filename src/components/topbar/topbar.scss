@@ -49,8 +49,9 @@
 }
 
 .wrapper {
-    padding: 5px 30px;
+    padding: 0px 30px;
     display: flex;
+    margin-top: -10px;
     align-items: center;
     justify-content: space-between;
 
@@ -61,11 +62,19 @@
 
         .logo {
             font-size: 50px;
-            margin-bottom: 5px;
+            margin-bottom: 15px;
             font-weight: 900;
             text-decoration: none;
             color: inherit;
             margin-right: 40px;
+            margin-left: -10%;
+
+            @include mobile {
+                padding: 0;
+                margin-bottom: 0%;
+                margin-left: 10px;
+                overflow: hidden;
+            }
         }
 
         .itemContainer {
@@ -126,5 +135,20 @@
 
     &.active {
         color: white !important;
+    }
+}
+
+.logo::before {
+    content: 'web design & development';
+    position: relative;
+    left: 50%;
+    top: 10px;
+    font-size: 10px;
+    font-weight: 100;
+
+    @include mobile {
+        top: 55px;
+        left: 20%;
+        position: absolute;
     }
 }
