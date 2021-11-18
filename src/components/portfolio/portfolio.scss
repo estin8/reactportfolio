@@ -2,13 +2,14 @@
 
 //Main portfolio container; individual portfolio items under class item
 .portfolio {
-    background-color: rgb(255, 223, 248);
+    background-color: #ffdff8;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://nates.vercel.app/assets/portripple.svg");
-    background-repeat: no-repeat;
-    background-position-y: -10px;
+    background-image: url("https://nates.vercel.app/assets/portripple.svg"), url("https://nates.vercel.app/assets/portnoise.png");
+    background-repeat: no-repeat, repeat;
+    background-size: 100vw, 200px;
+    background-position-y: -10px, 0%;
 
     @include mobile {
         background-image: unset;

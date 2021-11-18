@@ -5,10 +5,10 @@
 .intro {
     background-color: rgb(124, 144, 199);
     display: flex;
-    background-image: url("https://nates.vercel.app/assets/ripple.svg"), url;
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    background-position-y: 101%;
+    background-image: url("https://nates.vercel.app/assets/ripple.svg"), url("https://nates.vercel.app/assets/noise.png");
+    background-size: 100vw, 200px;
+    background-repeat: no-repeat, repeat;
+    background-position-y: 101%, 0%;
 
 
     @include mobile {
