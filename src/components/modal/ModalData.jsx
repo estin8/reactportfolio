@@ -15,7 +15,7 @@ export default function ModalData(data) {
     overflowY: 'hidden',
     scrollbarWidth: '0px',
     color: 'white',
-    bgcolor: 'rgba(16, 36, 61, 0.5)',
+    bgcolor: 'rgba(16, 36, 61, 0.8)',
     border: '1px dotted black',
     borderRadius: '10px',
     boxShadow: '4px 4px 4px rgba(0,0,0,0.5)',
@@ -46,19 +46,25 @@ export default function ModalData(data) {
         <Fade in={open}>
           <Box sx={style}>
             <div style={imgStyle}>
-              <Image src={data.img} imageStyle={imgStyle} aspectRatio="1/2" />
+              <Image
+                src={data.img}
+                imageStyle={imgStyle}
+                aspectRatio={3 / 1.5}
+              />
             </div>
             <Typography variant="h6" component="h2">
               <div className="modalContents">
-                <h2>{data.title}</h2>
+                <h2 style={{ textShadow: '4px 4px 4px black' }}>
+                  {data.title}
+                </h2>
               </div>
             </Typography>
             <Typography sx={{ mt: 2 }}>{data.description}</Typography>
-            <h3>Technologies used</h3>
+            <h3 style={{ textDecoration: 'underline' }}>Technologies used</h3>
             <Typography sx={{ mt: 2, fontSize: '10px' }}>
               <ul>
-                {data.tech.map((item) => (
-                  <li style={{ overflow: 'hidden' }} key={item.id}>
+                {data.tech.map((item, index) => (
+                  <li style={{ overflow: 'hidden' }} key={index}>
                     {item}
                   </li>
                 ))}

@@ -61,7 +61,7 @@ function Portfolio() {
               target="_blank"
               alt="preview of project website"
             >
-              <img className="rounded" src={d.img} alt="" />
+              <img className="rounded" src={d.img} key={d.id} alt="" />
             </a>
             )} />
             <h3>{d.title}</h3>
