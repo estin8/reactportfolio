@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact {
-    background-color: #faece4;
+    background-color: #ec8c66;
     background-image: url("https://nates.vercel.app/assets/contactnoise.png");
     background-repeat: repeat;
     background-size: 200px;
@@ -36,9 +36,26 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: -50px;
 
         @include mobile {
             width: 100vw;
+        }
+
+        .socials a i {
+            font-size: 80px;
+            text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+
+
+            &:hover {
+                text-shadow: 4px 8px 1px rgba(0, 0, 0, 0.5);
+            }
+
+            @include mobile {
+                font-size: 50px;
+                padding: 2px;
+            }
         }
 
         h2 {
@@ -49,16 +66,20 @@
         }
 
         form {
-            width: 70%;
-            height: 70%;
+            width: 50%;
+            height: 50%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-around;
 
+            @include mobile {
+                width: 300px;
+            }
 
             input[type=text]:focus {
                 background-color: rgb(222, 231, 252);
+                box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5)
             }
 
             input {
@@ -72,6 +93,7 @@
                 @include mobile {
                     width: 200px;
                     height: 20px;
+                    margin: 15%;
                 }
 
             }
@@ -81,9 +103,12 @@
                 height: 200px;
                 font-size: 14px;
                 border-radius: 10px;
+                margin-top: -30px;
+
 
                 &:focus {
                     background-color: rgb(222, 231, 252);
+                    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5)
                 }
 
                 @include mobile {

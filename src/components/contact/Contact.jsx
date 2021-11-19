@@ -47,6 +47,18 @@ function Contact() {
       </div>
       <div className="right">
         <h2>Contact</h2>
+        <div className="socials">
+          <a href="https://github.com/estin8">
+            <i className="fab fa-github"></i>
+          </a>
+          <a href="https://www.twitter.com/yabba_dabba_ew">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a href="mailto:natehilldev@gmail.com">
+            <i className="fas fa-at"></i>
+          </a>
+        </div>
+
         <form onSubmit={onSubmit}>
           <input
             type="text"
@@ -64,7 +76,9 @@ function Contact() {
           />
           <button type="submit">Send</button>
           {sentSuccess && (
-            <span>Thanks! I'll get back to you as soon as possible.</span>
+            <span style={{ color: 'white' }}>
+              Thanks! I'll get back to you as soon as possible.
+            </span>
           )}
         </form>
       </div>
