@@ -1,5 +1,5 @@
 import './intro.scss';
-import ArrowCircleDownSharpIcon from '@mui/icons-material/ArrowCircleDownSharp';
+import DoubleArrowSharpIcon from '@mui/icons-material/DoubleArrowSharp';
 
 export default function Intro() {
   return (
@@ -23,7 +23,10 @@ export default function Intro() {
           <h2>Let's build something awesome together</h2>
         </div>
         <a href="#portfolio" aria-label="arrow pointing down">
-          <ArrowCircleDownSharpIcon alt="arrow pointing down" />
+          <DoubleArrowSharpIcon
+            sx={{ transform: 'rotate(90deg)' }}
+            alt="arrow pointing down"
+          />
         </a>
       </div>
     </div>
