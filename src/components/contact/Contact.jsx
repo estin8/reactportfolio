@@ -48,13 +48,13 @@ function Contact() {
       <div className="right">
         <h2>Contact</h2>
         <div className="socials">
-          <a href="https://github.com/estin8">
+          <a href="https://github.com/estin8" aria-label="Github">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.twitter.com/yabba_dabba_ew">
+          <a href="https://www.twitter.com/yabba_dabba_ew" aria-label="Twitter">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="mailto:natehilldev@gmail.com">
+          <a href="mailto:natehilldev@gmail.com" aria-label="Email">
             <i className="fas fa-at"></i>
           </a>
         </div>

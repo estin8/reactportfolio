@@ -60,6 +60,7 @@ function Portfolio() {
               rel="noreferrer"
               target="_blank"
               alt="preview of project website"
+              aria-label="image preview and link"
             >
               <img className="rounded" src={d.img} key={d.id} alt="" />
             </a>
