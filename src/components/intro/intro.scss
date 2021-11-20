@@ -174,8 +174,12 @@
             svg {
                 width: 60px;
                 height: 60px;
-
+                color: $mainColor;
                 animation: arrowBlink 2s ease infinite;
+
+                @include mobile {
+                    color: white;
+                }
             }
 
             @keyframes arrowBlink {
