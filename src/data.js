@@ -1,6 +1,6 @@
 export const webPortfolio = [
         {
-        title: "Blah Blog - CMS",
+        title: "Blah Blog",
         description: "A blog/content management system utilizing NextJS, GraphQL, and TailwindCSS. ",
         img: './assets/blog_small.webp',
         link: 'https://blog-estin8.vercel.app',

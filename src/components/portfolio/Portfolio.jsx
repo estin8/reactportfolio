@@ -65,7 +65,7 @@ function Portfolio() {
               <img className="rounded" src={d.img} key={d.id} alt="" />
             </a>
             )} />
-            <h3>{d.title}</h3>
+            <h1 className="title">{d.title}</h1>
           </div>
         ))}
       </div>
