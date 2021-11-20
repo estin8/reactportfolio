@@ -22,7 +22,7 @@ export default function Intro() {
 
           <h2>Let's build something awesome together</h2>
         </div>
-        <a href="#portfolio" alt="arrow pointing down">
+        <a href="#portfolio" aria-label="arrow pointing down">
           <ArrowCircleDownSharpIcon alt="arrow pointing down" />
         </a>
       </div>
