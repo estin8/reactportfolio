@@ -40,7 +40,7 @@ function Contact() {
     <div className="contact" id="contact">
       <div className="left">
         <Image
-          src="assets/skyline.webp"
+          src="https://dq4ybn4jvkegx.cloudfront.net/assets/skyline.webp"
           imageStyle={imgStyle}
           alt="cincy skyline"
         />
