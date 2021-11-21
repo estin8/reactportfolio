@@ -6,13 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://nates.vercel.app/assets/portripple.svg"), url("https://nates.vercel.app/assets/portNoise.webp");
+    background-image: url("https://dq4ybn4jvkegx.cloudfront.net/assets/portripple.svg"), url("https://dq4ybn4jvkegx.cloudfront.net/assets/portNoise.webp");
     background-repeat: no-repeat, repeat;
     background-size: 100vw, 200px;
     background-position-y: -10px, 0%;
 
     @include mobile {
-        background-image: url("https://nates.vercel.app/assets/portNoise.webp");
+        background-image: url("https://dq4ybn4jvkegx.cloudfront.net/assets/portNoise.webp");
         background-size: 200px;
         background-repeat: repeat;
     }
