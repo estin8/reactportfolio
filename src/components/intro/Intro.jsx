@@ -8,7 +8,7 @@ export default function Intro() {
       <div className="left">
         <div className="imgContainer">
           <img
-            src="https://dq4ybn4jvkegx.cloudfront.net/assets/cinskyline.webp"
+            src="https://nates.vercel.app/assets/cinskyline.webp"
             width="1384px"
             height="558px"
             alt="cincinnati skyline"

@@ -2,7 +2,7 @@ export const webPortfolio = [
         {
         title: "Blah Blog",
         description: "A blog/content management system utilizing NextJS, GraphQL, and TailwindCSS. ",
-        img: 'https://dq4ybn4jvkegx.cloudfront.net/assets/blog_small.webp',
+        img: 'https://nates.vercel.app/assets/blog_small.webp',
         link: 'https://blog-estin8.vercel.app',
         tech: ['NextJS', 'ReactJS', 'Sass', 'TailwindCSS', 'MomentJS', 'GraphQL'],
         id: 1
@@ -10,7 +10,7 @@ export const webPortfolio = [
     {
         title: "Portfolio v1",
         description: "An earlier version of my portfolio that made use of the animating capabilities of GSAP.",
-        img: 'https://dq4ybn4jvkegx.cloudfront.net/assets/port_small.webp',
+        img: 'https://nates.vercel.app/assets/port_small.webp',
         link: 'https://nates.glitch.me/',
         tech: ['Vanilla JavaScript', 'Sass', 'GSAP'],
         id: 2
@@ -18,7 +18,7 @@ export const webPortfolio = [
     {
         title: "Dry County",
         description: "An app experimenting with animation and, in particular, SnapSVG.",
-        img: 'https://dq4ybn4jvkegx.cloudfront.net/assets/dc_small.webp',
+        img: 'https://nates.vercel.app/assets/dc_small.webp',
         link: 'https://drycounty.glitch.me/',
         tech: ['Vanilla JavaScript', 'Sass', 'SnapSVG'],
         id: 3
@@ -27,7 +27,7 @@ export const webPortfolio = [
         title: "How are you?",
         description: "An app that utilizes FaceAPI to measure a persons emotion based on their facial features and returns a response to the user.",
 
-        img: 'https://dq4ybn4jvkegx.cloudfront.net/assets/hay_small.webp',
+        img: 'https://nates.vercel.app/assets/hay_small.webp',
         link: 'https://howareyou-phi.vercel.app/',
         tech: ['Vanilla JavasScript', 'FaceAPI', 'Sass'],
         id: 4
@@ -35,7 +35,7 @@ export const webPortfolio = [
     {
         title: "ISS Tracker",
         description: "An app that maps out the current position of a satellite based on its NORAD catalog number. The API currently only supports tracking the ISS.",
-        img: 'https://dq4ybn4jvkegx.cloudfront.net/assets/sat_small.webp',
+        img: 'https://nates.vercel.app/assets/sat_small.webp',
         tech: ['Vanilla JavaScript', 'Leaflet', 'Sass'],
         link: 'https://satapp.glitch.me/',
         id: 5

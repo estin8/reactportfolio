@@ -40,7 +40,7 @@ function Contact() {
     <div className="contact" id="contact">
       <div className="left">
         <Image
-          src="https://dq4ybn4jvkegx.cloudfront.net/assets/skyline.webp"
+          src="https://nates.vercel.app/assets/skyline.webp"
           imageStyle={imgStyle}
           alt="cincy skyline"
         />
