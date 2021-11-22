@@ -9,10 +9,15 @@ import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 function Contact() {
   // Style for left-side image
   const imgStyle = {
-    width: '1920px',
-    minHeight: '100%',
-    maxHeight: '909px',
+    minWidth: '200%',
+    maxHeight: '100%',
+    objectFit: 'fill',
+    marginLeft: '-250px',
+    marginRight: '-250px',
     overflow: 'hidden',
+    '@include mobile': {
+      display: 'none',
+    },
   };
 
   // Code to deal with contact form
