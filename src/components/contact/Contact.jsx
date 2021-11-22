@@ -1,25 +1,11 @@
 import './contact.scss';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
-import Image from 'material-ui-image';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 function Contact() {
-  // Style for left-side image
-  const imgStyle = {
-    minWidth: '200%',
-    maxHeight: '100%',
-    objectFit: 'fill',
-    marginLeft: '-250px',
-    marginRight: '-250px',
-    overflow: 'hidden',
-    '@include mobile': {
-      display: 'none',
-    },
-  };
-
   // Code to deal with contact form
   const [toSend, setToSend] = useState({
     message: '',
@@ -56,13 +42,7 @@ function Contact() {
   };
   return (
     <div className="contact" id="contact">
-      <div className="left">
-        <Image
-          src="https://nates.vercel.app/assets/skyline.webp"
-          imageStyle={imgStyle}
-          alt="cincy skyline"
-        />
-      </div>
+      <div className="left"></div>
       <div className="right">
         <h2>Contact</h2>
         <div className="socials">
