@@ -2,6 +2,9 @@ import './contact.scss';
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import Image from 'material-ui-image';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 
 function Contact() {
   // Style for left-side image
@@ -36,6 +39,16 @@ function Contact() {
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
+
+  const iconStyle = {
+    width: '80px',
+    height: '80px',
+    fontWeight: 'bold',
+    m: -0.5,
+    '&:hover': {
+      color: 'lightblue',
+    },
+  };
   return (
     <div className="contact" id="contact">
       <div className="left">
@@ -49,13 +62,13 @@ function Contact() {
         <h2>Contact</h2>
         <div className="socials">
           <a href="https://github.com/estin8" aria-label="Github">
-            <i className="fab fa-github"></i>
+            <GitHubIcon sx={iconStyle} />
           </a>
           <a href="https://www.twitter.com/yabba_dabba_ew" aria-label="Twitter">
-            <i className="fab fa-twitter"></i>
+            <TwitterIcon sx={iconStyle} />
           </a>
           <a href="mailto:natehilldev@gmail.com" aria-label="Email">
-            <i className="fas fa-at"></i>
+            <AlternateEmailIcon sx={iconStyle} />
           </a>
         </div>
 
