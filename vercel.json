@@ -9,7 +9,7 @@
                 },
                 {
                     "key": "Content-Security-Policy",
-                    "value": "default-src https://nates.vercel.app; script-src 'self' https://nates.vercel.app; img-src 'self' https://nates.vercel.app"
+                    "value": "default-src 'self'; script-src 'self' 'sha256-iQu22FpoSpOgPDBCtXB7NHwh/OZCKj2c1IqIlaj9A4U='; connect-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; frame-ancestors 'self'; form-action 'self'"
                 }
             ]
         }
