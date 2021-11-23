@@ -82,6 +82,10 @@
             align-items: center;
             margin-left: 30px;
 
+            @include tablet {
+                display: none;
+            }
+
             @include mobile {
                 display: none;
             }

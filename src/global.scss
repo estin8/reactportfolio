@@ -2,7 +2,7 @@ $mainColor: #10243d;
 $secColor: rgb(20, 83, 220);
 
 $width: 768px;
-$width2: 1600px;
+$width2: 1200px;
 
 @mixin mobile {
     @media (max-width: #{$width}) {
