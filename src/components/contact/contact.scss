@@ -41,7 +41,7 @@
         .socials a i {
             font-size: 80px;
             text-shadow: 2px 4px 1px rgba(0, 0, 0, 0.5);
-            padding: 10px;
+            padding-top: 10px;
 
 
             &:hover {
@@ -139,5 +139,26 @@
                 font-weight: bold;
             }
         }
+    }
+}
+
+.footer {
+    margin-top: 60vh;
+    color: white;
+
+    @include tablet {
+        margin-top: 50vh;
+    }
+
+    @include mobile {
+        margin-top: 45vh;
+    }
+}
+
+.socials {
+    transform: translateY(20vh) scale(1.5);
+
+    @include mobile {
+        transform: translateY(10vh) scale(1.2);
     }
 }
